@@ -66,7 +66,7 @@ void handleWarmup() {
     display.clearDisplay();
     display.setTextSize(1);
     display.setCursor(10, 5);
-    display.print("STABILIZÁCIA (FEIT)");
+    display.print("    KALIBRACIA");
     
     display.setCursor(50, 22);
     display.setTextSize(2);
@@ -126,7 +126,7 @@ void handleMeasurementCorrected() {
   else display.print(promile, 2);
   
   display.setTextSize(1);
-  display.print(" ‰");
+  display.print(" %.");
   
   display.setCursor(0, 45);
   display.print("Dych: ");
